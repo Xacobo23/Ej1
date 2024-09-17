@@ -33,3 +33,10 @@ For each test case the program will write the number of lit candles the person w
 4
 
 2
+
+## asd
+
+If the classes have been created run the 
+following command from the project folder
+
+java -cp target/classes org.example.Main
