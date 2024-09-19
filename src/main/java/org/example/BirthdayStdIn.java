@@ -1,10 +1,16 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class BirthdayStdIn {
     ArrayList<Integer> lista = new ArrayList<>();
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int edad = scanner.nextInt();
+        BirthdayStdIn bb = new BirthdayStdIn();
+        System.out.print(bb.pasarBinario(edad));
+    }
     public int pasarBinario(int n) {
         int unos = 0;
 
